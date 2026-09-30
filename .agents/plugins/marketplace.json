@@ -1,0 +1,20 @@
+{
+  "name": "yourgpt",
+  "interface": {
+    "displayName": "YourGPT"
+  },
+  "plugins": [
+    {
+      "name": "yourgpt",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

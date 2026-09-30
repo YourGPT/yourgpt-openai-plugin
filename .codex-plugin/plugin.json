@@ -1,0 +1,35 @@
+{
+  "name": "yourgpt",
+  "version": "0.1.0",
+  "description": "Review YourGPT support conversations, analytics, training status, and project knowledge.",
+  "author": {
+    "name": "YourGPT",
+    "url": "https://yourgpt.ai"
+  },
+  "homepage": "https://yourgpt.ai",
+  "repository": "https://github.com/YourGPT/yourgpt-openai-plugin",
+  "keywords": [
+    "yourgpt",
+    "yourgpt support",
+    "yourgpt knowledge"
+  ],
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "YourGPT",
+    "shortDescription": "Review support activity and project knowledge.",
+    "longDescription": "Review YourGPT support conversations, analytics, training status, and project knowledge.",
+    "developerName": "YourGPT",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://yourgpt.ai",
+    "defaultPrompt": [
+      "Review support activity for my YourGPT project.",
+      "Audit my YourGPT knowledge base for answer gaps."
+    ]
+  }
+}
