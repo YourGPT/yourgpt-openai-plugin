@@ -1,7 +1,7 @@
 {
   "name": "yourgpt",
-  "version": "0.1.0",
-  "description": "Review YourGPT support conversations, analytics, training status, and project knowledge.",
+  "version": "0.1.1",
+  "description": "Analyze customer conversations, spot recurring issues, fix knowledge gaps, and tune YourGPT agents for better answers.",
   "author": {
     "name": "YourGPT",
     "url": "https://yourgpt.ai"
@@ -18,8 +18,11 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "YourGPT",
-    "shortDescription": "Review support activity and project knowledge.",
-    "longDescription": "Review YourGPT support conversations, analytics, training status, and project knowledge.",
+    "shortDescription": "Improve AI customer support",
+    "privacyPolicyURL": "https://yourgpt.ai/privacy",
+    "termsOfServiceURL": "https://yourgpt.ai/terms",
+    "supportURL": "https://help.yourgpt.ai/",
+    "longDescription": "Analyze customer conversations, spot recurring issues, fix knowledge gaps, and tune YourGPT agents for better answers.",
     "developerName": "YourGPT",
     "category": "Productivity",
     "capabilities": [
@@ -27,6 +30,8 @@
       "Write"
     ],
     "websiteURL": "https://yourgpt.ai",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png",
     "defaultPrompt": [
       "Review support activity for my YourGPT project.",
       "Audit my YourGPT knowledge base for answer gaps."
