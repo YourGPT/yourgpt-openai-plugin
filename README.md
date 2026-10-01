@@ -23,7 +23,7 @@ The app receives separate OAuth credentials; the API token stays encrypted on th
 
 ## Status
 
-The hosted connection uses OAuth authorization code with S256 PKCE. Availability in this repository is independent of official directory approval. Validate the connection in your intended host. Version 0.1.1 exposes only search_tools and execute_tool on the existing endpoint. Search returns matching operation schemas on demand; execute dispatches to the same 66 existing handlers.
+The hosted connection uses OAuth authorization code with S256 PKCE. Availability in this repository is independent of official directory approval. Validate the connection in your intended host. Version 0.1.2 exposes only search_tools and execute_tool on the existing endpoint. Search returns matching operation schemas on demand; execute dispatches to the same 66 existing handlers.
 
 ## Data access
 
