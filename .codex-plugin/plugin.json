@@ -1,6 +1,6 @@
 {
   "name": "yourgpt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Analyze customer conversations, spot recurring issues, fix knowledge gaps, and tune YourGPT agents for better answers.",
   "author": {
     "name": "YourGPT",
